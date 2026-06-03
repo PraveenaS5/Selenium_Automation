@@ -1,0 +1,12 @@
+class CalculateSquare {
+
+    // Method to find square
+    public static int findSquare(int number) {
+        return number * number;
+    }
+
+    public static void main(String[] args) {
+        int result = findSquare(5);
+        System.out.println("Square is: " + result);
+    }
+}
